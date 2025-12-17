@@ -40,6 +40,7 @@
             this.textBox1.Size = new System.Drawing.Size(339, 26);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "User Name";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -48,6 +49,7 @@
             this.textBox2.Size = new System.Drawing.Size(339, 26);
             this.textBox2.TabIndex = 1;
             this.textBox2.Text = "Password";
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // Login
             // 
