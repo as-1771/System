@@ -30,6 +30,7 @@
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Login = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -48,12 +49,24 @@
             this.textBox2.TabIndex = 1;
             this.textBox2.Text = "Password";
             // 
+            // Login
+            // 
+            this.Login.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.Login.Location = new System.Drawing.Point(151, 338);
+            this.Login.Name = "Login";
+            this.Login.Size = new System.Drawing.Size(75, 29);
+            this.Login.TabIndex = 2;
+            this.Login.Text = "LoginBtn";
+            this.Login.UseVisualStyleBackColor = true;
+            this.Login.Click += new System.EventHandler(this.Login_Click);
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Desktop;
             this.ClientSize = new System.Drawing.Size(546, 532);
+            this.Controls.Add(this.Login);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -70,6 +83,7 @@
 
         private Windows.Forms.TextBox textBox1;
         private Windows.Forms.TextBox textBox2;
+        private Windows.Forms.Button Login;
     }
 }
 
