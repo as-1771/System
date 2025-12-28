@@ -1,6 +1,6 @@
 ﻿namespace System
 {
-    partial class LoginForm
+    partial class user
     {
         /// <summary>
         /// Required designer variable.
@@ -28,24 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // LoginForm
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(313, 164);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // user
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Desktop;
-            this.ClientSize = new System.Drawing.Size(1023, 532);
-            this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Name = "LoginForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
+            this.Name = "user";
+            this.Text = "user";
+            this.Load += new System.EventHandler(this.user_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private Windows.Forms.Button button1;
     }
 }
-
