@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -14,6 +16,25 @@ namespace System
         public LoginForm()
         {
             InitializeComponent();
+        }
+        private void TestDb()
+        {
+            try
+            {
+                string cs = ConfigurationManager
+                            .ConnectionStrings["UserDb"]
+                            .ConnectionString;
+
+                using (SqlConnection con = new SqlConnection(cs))
+                {
+                    con.Open();
+                    MessageBox.Show("Database connected successfully!");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -167,6 +188,8 @@ namespace System
             }
 
             if (hasError) return;
+
+            TestDb();
         }
 
     }
