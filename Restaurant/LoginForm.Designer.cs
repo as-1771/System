@@ -177,7 +177,7 @@
             // PassTextBox
             // 
             this.PassTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.PassTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.PassTextBox.BackColor = System.Drawing.Color.Black;
             this.PassTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.PassTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PassTextBox.ForeColor = System.Drawing.SystemColors.WindowFrame;
@@ -265,7 +265,7 @@
             // UserNameTextBox
             // 
             this.UserNameTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.UserNameTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.UserNameTextBox.BackColor = System.Drawing.Color.Black;
             this.UserNameTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UserNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserNameTextBox.ForeColor = System.Drawing.SystemColors.WindowFrame;
