@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panellogo = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.LoginBtn = new System.Windows.Forms.Button();
             this.panelLogin = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -51,6 +50,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelLogin = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.LogoPictureBox = new System.Windows.Forms.PictureBox();
+            this.MotivationPictureBox = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
             this.panellogo.SuspendLayout();
             this.panelLogin.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -61,11 +63,14 @@
             this.UserNamePnl.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LogoPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MotivationPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(7)))), ((int)(((byte)(56)))));
+            this.panel1.Controls.Add(this.MotivationPictureBox);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(5, 5);
             this.panel1.Name = "panel1";
@@ -76,21 +81,12 @@
             // panellogo
             // 
             this.panellogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(7)))), ((int)(((byte)(56)))));
-            this.panellogo.Controls.Add(this.label2);
+            this.panellogo.Controls.Add(this.LogoPictureBox);
             this.panellogo.Dock = System.Windows.Forms.DockStyle.Left;
             this.panellogo.Location = new System.Drawing.Point(5, 82);
             this.panellogo.Name = "panellogo";
             this.panellogo.Size = new System.Drawing.Size(313, 445);
             this.panellogo.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(171, 282);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
             // 
             // LoginBtn
             // 
@@ -310,6 +306,28 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "User Name";
             // 
+            // LogoPictureBox
+            // 
+            this.LogoPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LogoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("LogoPictureBox.Image")));
+            this.LogoPictureBox.Location = new System.Drawing.Point(0, 0);
+            this.LogoPictureBox.Name = "LogoPictureBox";
+            this.LogoPictureBox.Size = new System.Drawing.Size(313, 445);
+            this.LogoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.LogoPictureBox.TabIndex = 0;
+            this.LogoPictureBox.TabStop = false;
+            // 
+            // MotivationPictureBox
+            // 
+            this.MotivationPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MotivationPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("MotivationPictureBox.Image")));
+            this.MotivationPictureBox.Location = new System.Drawing.Point(0, 0);
+            this.MotivationPictureBox.Name = "MotivationPictureBox";
+            this.MotivationPictureBox.Size = new System.Drawing.Size(1013, 77);
+            this.MotivationPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.MotivationPictureBox.TabIndex = 0;
+            this.MotivationPictureBox.TabStop = false;
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -325,8 +343,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel1.ResumeLayout(false);
             this.panellogo.ResumeLayout(false);
-            this.panellogo.PerformLayout();
             this.panelLogin.ResumeLayout(false);
             this.panelLogin.PerformLayout();
             this.panel6.ResumeLayout(false);
@@ -341,6 +359,8 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LogoPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MotivationPictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -352,7 +372,6 @@
         private Windows.Forms.Button LoginBtn;
         private Windows.Forms.Panel panelLogin;
         private Windows.Forms.TextBox UserNameTextBox;
-        private Windows.Forms.Label label2;
         private Windows.Forms.Label label1;
         private Windows.Forms.Label labelLogin;
         private Windows.Forms.Panel panel2;
@@ -369,6 +388,8 @@
         private Windows.Forms.TextBox PassTextBox;
         private Windows.Forms.PictureBox pictureBox2;
         private Windows.Forms.Label label5;
+        private Windows.Forms.PictureBox LogoPictureBox;
+        private Windows.Forms.PictureBox MotivationPictureBox;
     }
 }
 
