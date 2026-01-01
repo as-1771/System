@@ -74,7 +74,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(5, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1013, 77);
+            this.panel1.Size = new System.Drawing.Size(1068, 120);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -83,9 +83,9 @@
             this.panellogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(7)))), ((int)(((byte)(56)))));
             this.panellogo.Controls.Add(this.LogoPictureBox);
             this.panellogo.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panellogo.Location = new System.Drawing.Point(5, 82);
+            this.panellogo.Location = new System.Drawing.Point(5, 125);
             this.panellogo.Name = "panellogo";
-            this.panellogo.Size = new System.Drawing.Size(313, 445);
+            this.panellogo.Size = new System.Drawing.Size(374, 664);
             this.panellogo.TabIndex = 1;
             // 
             // LoginBtn
@@ -95,7 +95,7 @@
             this.LoginBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
             this.LoginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LoginBtn.ForeColor = System.Drawing.Color.Lime;
-            this.LoginBtn.Location = new System.Drawing.Point(315, 347);
+            this.LoginBtn.Location = new System.Drawing.Point(320, 518);
             this.LoginBtn.Name = "LoginBtn";
             this.LoginBtn.Size = new System.Drawing.Size(216, 47);
             this.LoginBtn.TabIndex = 2;
@@ -116,9 +116,9 @@
             this.panelLogin.Controls.Add(this.labelLogin);
             this.panelLogin.Controls.Add(this.label1);
             this.panelLogin.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelLogin.Location = new System.Drawing.Point(318, 82);
+            this.panelLogin.Location = new System.Drawing.Point(379, 125);
             this.panelLogin.Name = "panelLogin";
-            this.panelLogin.Size = new System.Drawing.Size(700, 445);
+            this.panelLogin.Size = new System.Drawing.Size(694, 664);
             this.panelLogin.TabIndex = 2;
             this.panelLogin.Paint += new System.Windows.Forms.PaintEventHandler(this.panelLogin_Paint);
             // 
@@ -126,7 +126,7 @@
             // 
             this.panel6.Controls.Add(this.PassPnl);
             this.panel6.Controls.Add(this.panel8);
-            this.panel6.Location = new System.Drawing.Point(227, 209);
+            this.panel6.Location = new System.Drawing.Point(245, 376);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(390, 116);
             this.panel6.TabIndex = 8;
@@ -191,7 +191,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(30, 212);
+            this.pictureBox2.Location = new System.Drawing.Point(48, 379);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(75, 71);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -202,7 +202,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(111, 243);
+            this.label5.Location = new System.Drawing.Point(129, 410);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(98, 25);
             this.label5.TabIndex = 6;
@@ -212,7 +212,7 @@
             // 
             this.panel4.Controls.Add(this.UserNamePnl);
             this.panel4.Controls.Add(this.panel2);
-            this.panel4.Location = new System.Drawing.Point(227, 87);
+            this.panel4.Location = new System.Drawing.Point(245, 254);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(390, 116);
             this.panel4.TabIndex = 5;
@@ -279,7 +279,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(30, 90);
+            this.pictureBox1.Location = new System.Drawing.Point(48, 257);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(75, 73);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -290,7 +290,7 @@
             // 
             this.labelLogin.AutoSize = true;
             this.labelLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelLogin.Location = new System.Drawing.Point(310, 46);
+            this.labelLogin.Location = new System.Drawing.Point(328, 213);
             this.labelLogin.Name = "labelLogin";
             this.labelLogin.Size = new System.Drawing.Size(60, 25);
             this.labelLogin.TabIndex = 0;
@@ -300,7 +300,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(111, 121);
+            this.label1.Location = new System.Drawing.Point(129, 288);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(110, 25);
             this.label1.TabIndex = 1;
@@ -312,7 +312,7 @@
             this.LogoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("LogoPictureBox.Image")));
             this.LogoPictureBox.Location = new System.Drawing.Point(0, 0);
             this.LogoPictureBox.Name = "LogoPictureBox";
-            this.LogoPictureBox.Size = new System.Drawing.Size(313, 445);
+            this.LogoPictureBox.Size = new System.Drawing.Size(374, 664);
             this.LogoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.LogoPictureBox.TabIndex = 0;
             this.LogoPictureBox.TabStop = false;
@@ -323,7 +323,7 @@
             this.MotivationPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("MotivationPictureBox.Image")));
             this.MotivationPictureBox.Location = new System.Drawing.Point(0, 0);
             this.MotivationPictureBox.Name = "MotivationPictureBox";
-            this.MotivationPictureBox.Size = new System.Drawing.Size(1013, 77);
+            this.MotivationPictureBox.Size = new System.Drawing.Size(1068, 120);
             this.MotivationPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.MotivationPictureBox.TabIndex = 0;
             this.MotivationPictureBox.TabStop = false;
@@ -333,7 +333,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1023, 532);
+            this.ClientSize = new System.Drawing.Size(1078, 794);
             this.Controls.Add(this.panelLogin);
             this.Controls.Add(this.panellogo);
             this.Controls.Add(this.panel1);
